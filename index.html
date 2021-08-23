@@ -1,0 +1,71 @@
+<body>
+<div>
+  <h1 id="title">Short Mechanical Switch Survey</h1>
+  
+  <p id="description">Provide your full name and e-mail and select <strong id="fef">your favourite type of switch</strong>, <strong id="nir">preferred brand of switches</strong>, as well as <strong id="foxxe">your opinion on which lube(s) is/are the best for your switches.</strong></p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label>
+    <input id="name" type="text" name="name" placeholder="First and Last Name" required>
+    <br><br>
+    <label for="email" id="email-label">E-Mail</label>
+    <input id="email" type="email" name="email" placeholder="johndoe@exampl.com" required> 
+    <br><br>
+    <label for="number" id="number-label">Age</label>
+    <input id="number" type="number" name="number" placeholder="25" min="0" max="131">
+    <br><br>
+    <label for="switch-type" id="dropdown">Choose a Switch Type</label>  
+    <select id="dropdown">
+      <option value="Clicky">Clicky</option>
+      <option value="Tactile">Tactile</option>
+      <option value="Linear">Linear</option>
+    </select>
+    <br><br>
+    <label for="group" id="group-label">Choose a Brand</label>
+    <br>
+    <input id="switch-group" type="radio" id="cherry-mx" name="group" value="cherry-mx">  
+    <label for="Choose a Brand">Cherry MX</label>
+    <br>
+    <input id="switch-group" type="radio" id="kailh" name="group" value="kailh">  
+    <label for="Choose a Brand">Kailh</label>
+    <br>
+    <input id="switch-group" type="radio" id="outemu" name="group" value="outemu">  
+    <label for="Choose a Brand">Outemu</label>
+    <br>
+        <input id="switch-group" type="radio" id="gatorade" name="group" value="gatorade">  
+    <label for="Choose a Brand">Gateron</label>
+    <br>
+        <input id="switch-group" type="radio" id="snekisnek" name="group" value="snekisnek">  
+    <label for="Choose a Brand">Razer</label>
+    <br><br>
+    <label for="lube">Choose One or More Lube(s)</label>
+    <br>
+    <input id="krytox-205g0" type="checkbox" name="lube" value="krytox-205g0">
+    <label for="checkbox">Krytox 205g0</label>
+    <br>
+    <input id="krytox-204g0" type="checkbox" name="lube" value="krytox-204g0">
+    <label for="checkbox">Krytox 204g0</label>
+    <br>
+    <input id="krytox-105-oil" type="checkbox" name="lube" value="krytox-105-oil">
+    <label for="checkbox">Krytox 105 Oil</label>
+    <br>
+    <input id="krytox-gpl-105" type="checkbox" name="lube" value="krytox-gpl-105">
+    <label for="checkbox">Krytox GPL 105</label>
+    <br>
+    <input id="tribosys-3203" type="checkbox" name="lube" value="tribosys-3203">
+    <label for="checkbox">Tribosys 3203</label>
+    <br>
+    <input id="tribosys-3204" type="checkbox" name="lube" value="tribosys-3204">
+    <label for="checkbox">Tribosys 3204</label>
+    <br>
+    <input id="permatex-dielectric-grease" type="checkbox" name="lube" value="permatex-dielectric-grease">
+    <label for="checkbox">Permatex Dielectric Grease</label>
+    <br><br><br>
+    <label id="textarea">Comments</label>
+    <br>
+    <textarea id="textarea" name="comments" rows="5" cols="45"></textarea>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</div>
+</body>
